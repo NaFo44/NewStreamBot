@@ -55,7 +55,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
     );
     console.log('Commandes enregistrées.');
   } catch (error) {
-    console.error('Erreur lors de l'enregistrement :', error);
+    console.error("Erreur lors de l'enregistrement :", error);
   }
 })();
 
